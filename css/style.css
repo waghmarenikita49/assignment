@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@");
 
 * {
   margin: 0;
@@ -45,7 +45,7 @@ body {
   display: flex;
   /* justify-content: center; */
   justify-content: space-between;
-  /* margin: 20px; */
+  margin: 60px 40px;
 }
 .header p {
   font-size: 20px;
@@ -63,6 +63,7 @@ body {
   font-weight: bolder;
   /* padding: 15px; */
   font-size: 16px;
+  border: none;
   width: 158px;
   height: 41px;
   margin: 20px 20px;
@@ -73,7 +74,7 @@ body {
 }
 
 .nav ul {
-  margin: 0;
+  
   padding: 0;
   list-style: none;
   width: 158px;
@@ -86,11 +87,12 @@ body {
 
 .nav li {
   float: left;
-  margin-left: 20px;
+  margin-left: 55px;
   /* border-right: 1px solid gray; */
   /* font-family: Poppins, Regular; */
   letter-spacing: 1.4px;
   color: red;
+  
 }
 .nav a {
   display: block;
@@ -107,6 +109,7 @@ body {
 
 .carousel-inner .item {
   height: 500px;
+  background-size: cover;
 }
 
 .carousel-caption {
